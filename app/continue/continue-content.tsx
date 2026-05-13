@@ -16,7 +16,7 @@ export default function ContinueContent() {
     <div className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png"
+          src="/images/background.png"
           alt=""
           fill
           className="object-cover"

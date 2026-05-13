@@ -70,7 +70,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "I Choose My Future",
     description: "The power to change your life is in your hands!",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/man-silhouette-stars-ePpuLOlpUM1GLQXD1O9qngRdWr2f3O.jpg",
+    image: "/images/man-silhouette-stars.jpg",
   },
   {
     type: "question",
@@ -108,7 +108,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Faith Decision",
     description: "Your Faith Will Move Mountains",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/praying-hands-CVnRMvYwYR1RDmn6T6ThS6Q9zKCOvt.jpg",
+    image: "/images/praying-hands.jpg",
   },
   {
     type: "question",
@@ -121,7 +121,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Dream Home",
     description: "Your Dream Home Is on Its Way",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dream-home-5Remsl0ECx46HOpZd05MOoNm1hhcjR.jpg",
+    image: "/images/dream-home.jpg",
   },
   {
     type: "question",
@@ -134,7 +134,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Dream Car",
     description: "Your Dream Car Is Reserved",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dream-car-KEXAPWinWSjT1lHocli7BuZNKpb25d.jpg",
+    image: "/images/dream-car.jpg",
   },
   {
     type: "question",
@@ -152,7 +152,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Happy Family",
     description: "The Happy Family You Deserve",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/happy-family-tSR0UXgGJylMNWDnQHrGVaplLfeGit.jpg",
+    image: "/images/happy-family.jpg",
   },
   {
     type: "question",
@@ -170,7 +170,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Perfect Health",
     description: "Your Perfect Health Is Activated",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/perfect-health-9KhsAK2Xbm6qZpSCxWaCgPW6WdI5Xm.jpg",
+    image: "/images/perfect-health.jpg",
   },
   {
     type: "question",
@@ -183,14 +183,14 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Abundance",
     description: "Imagine... $277,000 being deposited into your account right now!",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abundance-OfeTcWZtF5r7iB0flAkiwVSfXdYyoh.jpg",
+    image: "/images/abundance.jpg",
     buttonText: "YES! I believe, I receive!",
   },
   {
     type: "motivational",
     title: "{name}",
     description: "Your manifestation potential depends on your choice, think big to manifest big things, you are the size of your courage.",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abundance-OfeTcWZtF5r7iB0flAkiwVSfXdYyoh.jpg",
+    image: "/images/abundance.jpg",
     buttonText: "Continue Journey",
     addToBalance: 2000000,
   },
@@ -210,7 +210,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "100x Boost",
     description: "Your Manifestation Power Just Multiplied by 100x",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100x-boost-u0d2ImxroTgDh923egrpgJZafEpcCL.jpg",
+    image: "/images/100x-boost.jpg",
   },
   {
     type: "question",
@@ -235,7 +235,7 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
     type: "unlock-screen",
     title: "Blocks Broken",
     description: "All Mental Blocks Have Been Removed",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/blocks-broken-j2iJJLXEQQsMhdjOwlalBgaM8CBmUF.jpg",
+    image: "/images/blocks-broken.jpg",
   },
   {
     type: "question",
@@ -273,16 +273,16 @@ const quizSteps: Array<QuestionStep | UnlockStep | MotivationalStep | { type: "c
 ]
 
 const achievements = [
-  { name: "I Choose My Future", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/man-silhouette-stars-ePpuLOlpUM1GLQXD1O9qngRdWr2f3O.jpg", unlockedAtStep: 7 },
-  { name: "Faith Decision", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/praying-hands-CVnRMvYwYR1RDmn6T6ThS6Q9zKCOvt.jpg", unlockedAtStep: 12 },
-  { name: "Dream Home", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dream-home-5Remsl0ECx46HOpZd05MOoNm1hhcjR.jpg", unlockedAtStep: 14 },
-  { name: "Dream Car", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dream-car-KEXAPWinWSjT1lHocli7BuZNKpb25d.jpg", unlockedAtStep: 16 },
-  { name: "Happy Family", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/happy-family-tSR0UXgGJylMNWDnQHrGVaplLfeGit.jpg", unlockedAtStep: 18 },
-  { name: "Perfect Health", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/perfect-health-9KhsAK2Xbm6qZpSCxWaCgPW6WdI5Xm.jpg", unlockedAtStep: 20 },
-  { name: "Abundance", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abundance-OfeTcWZtF5r7iB0flAkiwVSfXdYyoh.jpg", unlockedAtStep: 22 },
-  { name: "100x Boost", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100x-boost-u0d2ImxroTgDh923egrpgJZafEpcCL.jpg", unlockedAtStep: 25 },
-  { name: "Blocks Broken", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/blocks-broken-j2iJJLXEQQsMhdjOwlalBgaM8CBmUF.jpg", unlockedAtStep: 28 },
-  { name: "100x Multiplication", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100x-multiplication-5K8U4SZY3fs9LOdfgAxypaDIPUR0LB.jpg", unlockedAtStep: 2 },
+  { name: "I Choose My Future", image: "/images/man-silhouette-stars.jpg", unlockedAtStep: 7 },
+  { name: "Faith Decision", image: "/images/praying-hands.jpg", unlockedAtStep: 12 },
+  { name: "Dream Home", image: "/images/dream-home.jpg", unlockedAtStep: 14 },
+  { name: "Dream Car", image: "/images/dream-car.jpg", unlockedAtStep: 16 },
+  { name: "Happy Family", image: "/images/happy-family.jpg", unlockedAtStep: 18 },
+  { name: "Perfect Health", image: "/images/perfect-health.jpg", unlockedAtStep: 20 },
+  { name: "Abundance", image: "/images/abundance.jpg", unlockedAtStep: 22 },
+  { name: "100x Boost", image: "/images/100x-boost.jpg", unlockedAtStep: 25 },
+  { name: "Blocks Broken", image: "/images/blocks-broken.jpg", unlockedAtStep: 28 },
+  { name: "100x Multiplication", image: "/images/100x-multiplication.jpg", unlockedAtStep: 2 },
 ]
 
 const notifications = [
@@ -297,16 +297,16 @@ const notifications = [
 ]
 
 const portals = [
-  { name: "I Choose My Future", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/man-silhouette-stars-ePpuLOlpUM1GLQXD1O9qngRdWr2f3O.jpg" },
-  { name: "Faith Decision", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/praying-hands-CVnRMvYwYR1RDmn6T6ThS6Q9zKCOvt.jpg" },
-  { name: "Dream Home", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dream-home-5Remsl0ECx46HOpZd05MOoNm1hhcjR.jpg" },
-  { name: "Dream Car", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dream-car-KEXAPWinWSjT1lHocli7BuZNKpb25d.jpg" },
-  { name: "Happy Family", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/happy-family-tSR0UXgGJylMNWDnQHrGVaplLfeGit.jpg" },
-  { name: "Perfect Health", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/perfect-health-9KhsAK2Xbm6qZpSCxWaCgPW6WdI5Xm.jpg" },
-  { name: "Abundance", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abundance-OfeTcWZtF5r7iB0flAkiwVSfXdYyoh.jpg" },
-  { name: "100x Boost", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100x-boost-u0d2ImxroTgDh923egrpgJZafEpcCL.jpg" },
-  { name: "Blocks Broken", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/blocks-broken-j2iJJLXEQQsMhdjOwlalBgaM8CBmUF.jpg" },
-  { name: "100x Multiplication", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100x-multiplication-5K8U4SZY3fs9LOdfgAxypaDIPUR0LB.jpg" },
+  { name: "I Choose My Future", image: "/images/man-silhouette-stars.jpg" },
+  { name: "Faith Decision", image: "/images/praying-hands.jpg" },
+  { name: "Dream Home", image: "/images/dream-home.jpg" },
+  { name: "Dream Car", image: "/images/dream-car.jpg" },
+  { name: "Happy Family", image: "/images/happy-family.jpg" },
+  { name: "Perfect Health", image: "/images/perfect-health.jpg" },
+  { name: "Abundance", image: "/images/abundance.jpg" },
+  { name: "100x Boost", image: "/images/100x-boost.jpg" },
+  { name: "Blocks Broken", image: "/images/blocks-broken.jpg" },
+  { name: "100x Multiplication", image: "/images/100x-multiplication.jpg" },
 ]
 
 export default function UnifiedQuiz() {
@@ -365,7 +365,7 @@ export default function UnifiedQuiz() {
 
   // Preload seed card images from the very start of the quiz
   useEffect(() => {
-    const seedImages = ["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-barren.jpg-tpN1mcNknTQotYhWi6KKmWdhegDbIV.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-sprout.jpg-pPmYsojCyh2zqeeqm4RB2KB8t4cx61.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-tree.jpg-IWXBU9YeNg2h3ZU4A5wiBZTytCDfSd.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-golden.jpg-6knraYNPyyXdQSDPIXvLlf65nnfBPF.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-divine-NrmluCTD07sDMj1RsO3zw95T4m1hAX.jpg"]
+    const seedImages = ["/images/seed-barren.jpg", "/images/seed-sprout.jpg", "/images/seed-tree.jpg", "/images/seed-golden.jpg", "/images/seed-divine.jpg"]
     seedImages.forEach((src) => {
       const link = document.createElement("link")
       link.rel = "preload"
@@ -468,7 +468,7 @@ export default function UnifiedQuiz() {
   const renderContinueScreen = () => (
     <div className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
-        <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png" alt="Background" fill className="object-cover" priority />
+        <Image src="/images/background.png" alt="Background" fill className="object-cover" priority />
       </div>
       <div className="relative z-10 w-full max-w-sm px-4 flex flex-col items-center">
         <div className="mb-4 flex justify-center">
@@ -499,7 +499,7 @@ export default function UnifiedQuiz() {
   const renderJourneyScreen = () => (
     <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
-        <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png" alt="Background" fill className="object-cover object-bottom" priority />
+        <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-transparent" style={{ height: "60%" }} />
       </div>
       <div className="relative z-10 w-full flex flex-col items-center px-4 pt-6 pb-8">
@@ -537,7 +537,7 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-transparent" style={{ height: "70%" }} />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center px-4 pt-8 pb-8">
@@ -552,7 +552,7 @@ export default function UnifiedQuiz() {
             </div>
             <div className="flex justify-center mb-5">
               <div className="w-40 h-40 rounded-xl border-2 border-[#D4AF37] overflow-hidden">
-                <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/100x-multiplication-5K8U4SZY3fs9LOdfgAxypaDIPUR0LB.jpg" alt="Golden abundance" width={160} height={160} className="object-cover w-full h-full" />
+                <Image src="/images/100x-multiplication.jpg" alt="Golden abundance" width={160} height={160} className="object-cover w-full h-full" />
               </div>
             </div>
             <h2 className="text-[#D4AF37] text-2xl font-bold text-center mb-3">100x Multiplication</h2>
@@ -579,7 +579,7 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-transparent" style={{ height: "60%" }} />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center px-4 pt-6 pb-8">
@@ -653,7 +653,7 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/90 to-black/70" />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center justify-center min-h-screen px-4 py-8">
@@ -690,7 +690,7 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/90 to-black/70" />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center justify-center min-h-screen px-4 py-8">
@@ -739,7 +739,7 @@ export default function UnifiedQuiz() {
 
           {/* Preload offer images hidden */}
           <div className="absolute w-0 h-0 overflow-hidden" aria-hidden="true">
-            {["https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-barren.jpg-tpN1mcNknTQotYhWi6KKmWdhegDbIV.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-sprout.jpg-pPmYsojCyh2zqeeqm4RB2KB8t4cx61.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-tree.jpg-IWXBU9YeNg2h3ZU4A5wiBZTytCDfSd.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-golden.jpg-6knraYNPyyXdQSDPIXvLlf65nnfBPF.png", "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-divine-NrmluCTD07sDMj1RsO3zw95T4m1hAX.jpg"].map((src) => (
+            {["/images/seed-barren.jpg", "/images/seed-sprout.jpg", "/images/seed-tree.jpg", "/images/seed-golden.jpg", "/images/seed-divine.jpg"].map((src) => (
               <Image key={src} src={src} alt="" width={1} height={1} priority />
             ))}
           </div>
@@ -754,11 +754,11 @@ export default function UnifiedQuiz() {
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$0", desc: "The life that stays as it is.", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-barren.jpg-tpN1mcNknTQotYhWi6KKmWdhegDbIV.png", gold: false, link: "https://v0-ichoosethislfe.vercel.app/" },
-                  { price: "$27", desc: "The life that begins to awaken.", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-sprout.jpg-pPmYsojCyh2zqeeqm4RB2KB8t4cx61.png", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205950634:1" },
-                  { price: "$47", desc: "The life that grows with purpose.", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-tree.jpg-IWXBU9YeNg2h3ZU4A5wiBZTytCDfSd.png", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951168:1" },
-                  { price: "$77", desc: "The life of full abundance and manifestation.", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-golden.jpg-6knraYNPyyXdQSDPIXvLlf65nnfBPF.png", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951171:1" },
-                  { price: "$100", desc: "The life of divine overflow and miracles.", image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/seed-divine-NrmluCTD07sDMj1RsO3zw95T4m1hAX.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951174:1" },
+                  { price: "$0", desc: "The life that stays as it is.", image: "/images/seed-barren.jpg", gold: false, link: "https://v0-ichoosethislfe.vercel.app/" },
+                  { price: "$27", desc: "The life that begins to awaken.", image: "/images/seed-sprout.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205950634:1" },
+                  { price: "$47", desc: "The life that grows with purpose.", image: "/images/seed-tree.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951168:1" },
+                  { price: "$77", desc: "The life of full abundance and manifestation.", image: "/images/seed-golden.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951171:1" },
+                  { price: "$100", desc: "The life of divine overflow and miracles.", image: "/images/seed-divine.jpg", gold: true, link: "https://ageofabundance.mycartpanda.com/checkout/205951174:1" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
