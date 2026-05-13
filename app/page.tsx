@@ -31,7 +31,7 @@ export default function Home() {
       <div className="relative z-10 w-full max-w-md px-6 py-8 flex flex-col items-center justify-center text-center">
         <div className="mb-8 flex justify-center">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
+            src="/images/logo.png"
             alt="The Age of Abundance"
             width={200}
             height={200}

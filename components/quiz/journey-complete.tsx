@@ -22,7 +22,7 @@ export function JourneyComplete({ name }: JourneyCompleteProps) {
       <div className="mb-6">
         <div className="w-28 h-28 relative mx-auto">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
+            src="/images/logo.png"
             alt="The Age of Abundance"
             width={112}
             height={112}

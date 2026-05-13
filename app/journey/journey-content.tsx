@@ -39,7 +39,7 @@ export default function JourneyContent() {
         {/* Logo - small */}
         <div className="mb-4">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
+            src="/images/logo.png"
             alt="The Age of Abundance"
             width={80}
             height={80}

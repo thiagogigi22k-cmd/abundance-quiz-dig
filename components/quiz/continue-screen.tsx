@@ -13,7 +13,7 @@ export function ContinueScreen({ name, onContinue }: ContinueScreenProps) {
       {/* Logo */}
       <div className="mb-8">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
+          src="/images/logo.png"
           alt="The Age of Abundance"
           width={160}
           height={160}

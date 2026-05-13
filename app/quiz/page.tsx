@@ -97,7 +97,7 @@ function QuizContent() {
           <div className="mb-4 flex justify-center">
             <div className="w-16 h-16 relative">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
+                src="/images/logo.png"
                 alt="The Age of Abundance"
                 width={64}
                 height={64}
