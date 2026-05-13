@@ -16,7 +16,7 @@ export default function ContinueContent() {
     <div className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/background.png"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png"
           alt=""
           fill
           className="object-cover"
@@ -28,7 +28,7 @@ export default function ContinueContent() {
         <div className="mb-4 flex justify-center">
           <div className="w-28 h-28 relative">
             <Image
-              src="/images/logo.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
               alt="The Age of Abundance"
               width={112}
               height={112}

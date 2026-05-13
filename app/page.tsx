@@ -20,7 +20,7 @@ export default function Home() {
     <main className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 z-0 pointer-events-none">
         <Image
-          src="/images/design-20sem-20nome-20-281-29.png"
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/design-20sem-20nome-20-281-29-L2ypHalNApdOuR5OCId5fP1IZgueze.png"
           alt=""
           fill
           className="object-cover"
@@ -31,7 +31,7 @@ export default function Home() {
       <div className="relative z-10 w-full max-w-md px-6 py-8 flex flex-col items-center justify-center text-center">
         <div className="mb-8 flex justify-center">
           <Image
-            src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/qtpucbmv6eza55x7j5ca7m4q-tIUzJHr0YtOIXW9ovDB3wRyxH1toir.png"
             alt="The Age of Abundance"
             width={200}
             height={200}
