@@ -468,11 +468,11 @@ export default function UnifiedQuiz() {
   const renderContinueScreen = () => (
     <div className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
-        <Image src="/images/design-20sem-20nome-20-281-29.png" alt="Background" fill className="object-cover" priority />
+        <Image src="/images/background.png" alt="Background" fill className="object-cover" priority />
       </div>
       <div className="relative z-10 w-full max-w-sm px-4 flex flex-col items-center">
         <div className="mb-4 flex justify-center">
-          <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={112} height={112} className="object-contain" priority />
+          <Image src="/images/logo.png" alt="Logo" width={112} height={112} className="object-contain" priority />
         </div>
         <div className="w-full bg-[#0d0d1a]/95 rounded-xl border-2 border-[#D4AF37] p-5">
           <div className="flex items-start justify-between mb-5">
@@ -499,12 +499,12 @@ export default function UnifiedQuiz() {
   const renderJourneyScreen = () => (
     <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
-        <Image src="/images/design-20sem-20nome-20-281-29.png" alt="Background" fill className="object-cover object-bottom" priority />
+        <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-transparent" style={{ height: "60%" }} />
       </div>
       <div className="relative z-10 w-full flex flex-col items-center px-4 pt-6 pb-8">
         <div className="mb-4">
-          <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={80} height={80} className="object-contain" priority />
+          <Image src="/images/logo.png" alt="Logo" width={80} height={80} className="object-contain" priority />
         </div>
         <h1 className="text-[#D4AF37] text-xl font-bold text-center mb-4">Hello, {name} Your Journey has begun...</h1>
         <p className="text-gray-400 text-sm tracking-wider mb-1">ACCOUNT BALANCE</p>
@@ -537,12 +537,12 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/design-20sem-20nome-20-281-29.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-transparent" style={{ height: "70%" }} />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center px-4 pt-8 pb-8">
           <div className="mb-6">
-            <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={70} height={70} className="object-contain" priority />
+            <Image src="/images/logo.png" alt="Logo" width={70} height={70} className="object-contain" priority />
           </div>
           <div className="w-full max-w-sm bg-[#0d0d1a]/95 rounded-xl border-2 border-[#D4AF37] p-5">
             <div className="flex items-center justify-center gap-2 mb-5">
@@ -579,11 +579,11 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/design-20sem-20nome-20-281-29.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-transparent" style={{ height: "60%" }} />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center px-4 pt-6 pb-8">
-          <div className="mb-4"><Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={60} height={60} className="object-contain" priority /></div>
+          <div className="mb-4"><Image src="/images/logo.png" alt="Logo" width={60} height={60} className="object-contain" priority /></div>
           <h1 className="text-[#D4AF37] text-xl font-bold text-center mb-3">Hello, {name} Your Journey has begun...</h1>
           <p className="text-gray-400 text-sm tracking-wider mb-1">ACCOUNT BALANCE</p>
           <p className="text-[#D4AF37] text-3xl font-bold mb-4 animate-pulse-gold">${formatBalance(balance)}</p>
@@ -653,7 +653,7 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/design-20sem-20nome-20-281-29.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/90 to-black/70" />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center justify-center min-h-screen px-4 py-8">
@@ -690,7 +690,7 @@ export default function UnifiedQuiz() {
     return (
       <div className="min-h-screen w-full flex flex-col relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <Image src="/images/design-20sem-20nome-20-281-29.png" alt="Background" fill className="object-cover object-bottom" priority />
+          <Image src="/images/background.png" alt="Background" fill className="object-cover object-bottom" priority />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/90 to-black/70" />
         </div>
         <div className="relative z-10 w-full flex flex-col items-center justify-center min-h-screen px-4 py-8">
@@ -721,7 +721,7 @@ export default function UnifiedQuiz() {
             <Star className="w-8 h-8 text-[#F9D423] animate-spin-slow" fill="#F9D423" />
           </div>
           <div className="flex flex-col items-center mb-6 mt-4 animate-pulse-soft">
-            <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={80} height={80} className="object-contain" priority />
+            <Image src="/images/logo.png" alt="Logo" width={80} height={80} className="object-contain" priority />
           </div>
           <h1 className="text-white text-[28px] font-bold text-center mb-6 leading-tight">
             {name.toLowerCase()}, you{"'"}ve made it this<br />far... and that{"'"}s no<br />accident.
@@ -811,7 +811,7 @@ export default function UnifiedQuiz() {
         <div className="absolute top-20 left-8 w-3 h-3 bg-[#F9D423] rounded-full animate-pulse-circle" />
         <div className="absolute top-16 right-10 w-4 h-4 bg-[#F9D423] rounded-full animate-pulse-circle" style={{ animationDelay: "0.5s" }} />
         <div className="flex flex-col items-center mb-8 mt-8">
-          <Image src="/images/sem-20nome-20-281080-20x-201080-20px-29-20-281-29.png" alt="Logo" width={70} height={70} className="object-contain" priority />
+          <Image src="/images/logo.png" alt="Logo" width={70} height={70} className="object-contain" priority />
         </div>
         <h1 className="text-white text-[26px] font-bold text-center mb-6 leading-tight">{name.toUpperCase()}, your Divine<br />Manifestation<br />Script is being<br />created...</h1>
         <p className="text-[#D4AF37] text-lg text-center mb-10 leading-relaxed">Processing your answers<br />with divine precision</p>
