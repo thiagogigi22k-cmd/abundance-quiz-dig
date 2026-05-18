@@ -17,8 +17,6 @@ export default function UtmifyScripts() {
       utmScript.src = "https://cdn.utmify.com.br/scripts/utms/latest.js"
       utmScript.setAttribute("data-utmify-prevent-xcod-sck", "")
       utmScript.setAttribute("data-utmify-prevent-subids", "")
-      utmScript.setAttribute("data-utmify-ignore-iframe", "")
-      utmScript.setAttribute("data-utmify-is-cartpanda", "")
       utmScript.async = true
       utmScript.defer = true
       document.body.appendChild(utmScript)
