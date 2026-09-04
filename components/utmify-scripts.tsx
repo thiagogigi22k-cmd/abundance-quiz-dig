@@ -22,7 +22,7 @@ export default function UtmifyScripts() {
       document.body.appendChild(utmScript)
 
       // Pixel script
-      ;(window as unknown as Record<string, string>).pixelId = "69653c39ed15a37051cf203d"
+      ;(window as unknown as Record<string, string>).pixelId = "6a9a082fe5899b0629fa018b"
       const pixelScript = document.createElement("script")
       pixelScript.src = "https://cdn.utmify.com.br/scripts/pixel/pixel.js"
       pixelScript.async = true
