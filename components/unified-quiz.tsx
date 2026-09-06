@@ -754,9 +754,9 @@ export default function UnifiedQuiz() {
               {/* Seed Cards */}
               <div className="w-full flex flex-col gap-8">
                 {[
-                  { price: "$17", desc: "The life that begins to awaken.", image: "/images/seed-sprout.jpg", gold: true, link: "https://www.checkout-ds24.com/product/691574" },
-                  { price: "$27", desc: "The life of full abundance and manifestation.", image: "/images/seed-golden.jpg", gold: true, link: "https://www.checkout-ds24.com/product/691572" },
-                  { price: "$37", desc: "The life of divine overflow and miracles.", image: "/images/seed-divine.jpg", gold: true, link: "https://www.checkout-ds24.com/product/691571" },
+                  { price: "$17", desc: "The life that begins to awaken.", image: "/images/seed-sprout.jpg", gold: true, link: "https://www.checkout-ds24.com/product/711819" },
+                  { price: "$27", desc: "The life of full abundance and manifestation.", image: "/images/seed-golden.jpg", gold: true, link: "https://www.checkout-ds24.com/product/711836" },
+                  { price: "$37", desc: "The life of divine overflow and miracles.", image: "/images/seed-divine.jpg", gold: true, link: "https://www.checkout-ds24.com/product/711780" },
                 ].map((seed, index) => (
                   <div key={index} className="w-full flex flex-col items-center">
                     {/* Image */}
