@@ -10,6 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: 'The Age Of Abundance',
   description: 'Begin your manifestation journey',
+  referrer: 'no-referrer',
 }
 
 export const viewport: Viewport = {
